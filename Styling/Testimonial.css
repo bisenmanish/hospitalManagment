@@ -1,0 +1,94 @@
+/* /start testimonial section css */
+
+.slideshow-container {
+    position: relative;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(1,0,0,0.7)), url(../resource/hospital.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    
+    
+  }
+  .slideshow-container h1{
+  
+      text-align: center;
+      color: rgba(176, 173, 173,0.22);
+      padding-top: 20px;
+  }
+  
+ .mySlides{
+    width: 45%;
+    height: 200px;
+    padding: 20px;
+    color: black;
+    margin: 120px auto;
+    position: relative;
+    line-height: 22px;
+    background-color: #47BFA5;
+    display: none;
+    overflow: hidden;
+    
+
+ }
+  .active{
+
+   display: block;
+ }
+
+
+  .arrow{
+    position: absolute;
+    top: 47%;
+    font-size: 25px;
+    color: #ffffffdb;
+    border-radius: 50%;
+    padding: 6px 18px;
+   background-color: aqua; 
+ }
+  .next{
+    right: 20%;
+
+    
+ }
+  .prev{
+
+    left: 20%;
+ }
+ 
+
+ .author{
+
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: white;
+ }
+ .mySlides q{
+
+    font-size: 15px;
+ }
+ .dots-container{
+
+   position: absolute;
+   bottom: 10px;
+   left: 45%;
+}
+.dots{
+
+   cursor: pointer;
+   height: 13px;
+   width: 13px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s;
+}
+.dots:hover{
+
+   background-color: rgb(99, 110, 116);
+}
+.dots-container .activeDots{
+   background-color: rgb(212, 102, 80);
+}

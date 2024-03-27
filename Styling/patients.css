@@ -1,0 +1,192 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Lab-container{
+
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+.Lab-subcontainer{
+
+
+    width: 80%;
+    margin: 100px auto;
+    box-shadow: 0px 0px 8px lightgrey;
+    text-align: center;
+    padding: 20px 19px;
+
+}
+.Lab-subcontainer h1{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    padding: 25px 0px;
+    
+
+    
+}
+.Lab-subcontainer p,li{
+
+font-size: 15px;
+padding-bottom: 15px;
+line-height: 25.5px;
+text-align: start;
+color:rgb(102, 102, 102);
+font-family: "Lato", sans-serif;
+font-weight: 500;
+font-style: normal;
+word-spacing:2px;
+
+}
+.Lab-subcontainer h3{
+
+    font-size: 22px;
+    text-align: left;
+    padding: 18px 0px;
+    color: rgb(72, 72, 72);
+}
+
+.Lab-subcontainer .service-p{
+
+ font-size: 15px;
+padding: 28px 0px;
+line-height: 25.5px;
+text-align: start;
+color:rgb(102, 102, 102);
+font-family: "Lato", sans-serif;
+font-weight: 500;
+font-style: normal;
+word-spacing:2px;
+
+}
+
+ul{
+
+    padding: 4px 38px;
+}
+
+
+/* home care plan */
+
+.descriptionData{
+
+width: 80%;
+display: flex;
+margin: 30px auto;
+
+}
+
+.leftData{
+
+
+    width: 45%;
+    padding-left: 100px;
+}
+.rightData{
+
+    width: 35%;
+    padding-left: 50px;
+}
+
+
+/* mortury service start */
+
+
+.mortuary-container{
+
+
+
+    width: 80%;
+    margin: 100px auto;
+
+}
+
+.heading{
+
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    padding: 18px 0px;
+    color: rgb(30, 30, 30);
+}
+
+.mortuary-description{
+font-size: 15px;
+padding-bottom: 15px;
+line-height: 25.5px;
+text-align: start;
+color:rgb(102, 102, 102);
+font-weight: 500;
+font-style: normal;
+word-spacing:2px;
+
+}
+
+/* our experts start */
+
+
+.buttons{
+
+    width: 100%;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    
+
+}
+
+
+.doctors-details{
+
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+
+
+    
+    
+
+    
+
+
+}
+.card{
+
+    width: 250px;
+    box-shadow: 0px 0px 10px lightgray;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+    text-align: center;
+    
+}
+.card.hide{
+
+    display:none;
+}
+
+.card h3 {
+
+    background-color:rgb(71, 191, 165) ;
+    color: white;
+    position: absolute;
+    bottom: 49px;
+    left: 17px;
+    font-size: 21px;
+
+}
+.card p{
+
+    line-height:1.2;
+}
